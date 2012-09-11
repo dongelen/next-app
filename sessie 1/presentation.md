@@ -53,6 +53,20 @@ Hoe zien de tools eruit?
 
 !
 
+Outlets, Action
+===
+* Outlet, "aansluiting" voor de interface
+* IBAction, "actie" die gekoppeld kan worden aan de interface
+
+!
+
+Triva
+===
+* NS = NextStep
+* IB = Interface builder
+
+!
+
 Leven met beperkingen
 ===
 * Klein scherm
