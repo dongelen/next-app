@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF1AC3B1353336700722667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3A1353336700722667 /* UIKit.framework */; };
+		CAF1AC3D1353336700722667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3C1353336700722667 /* Foundation.framework */; };
+		CAF1AC3F1353336700722667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3E1353336700722667 /* CoreGraphics.framework */; };
+		CAF1AC451353336700722667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF1AC431353336700722667 /* InfoPlist.strings */; };
+		CAF1AC481353336700722667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1AC471353336700722667 /* main.m */; };
+		CAF1AC4B1353336700722667 /* WebBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1AC4A1353336700722667 /* WebBrowserAppDelegate.m */; };
+		CAF1AC4E1353336700722667 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF1AC4C1353336700722667 /* MainWindow.xib */; };
+		CAF1AC511353336700722667 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1AC501353336700722667 /* WebBrowserViewController.m */; };
+		CAF1AC541353336700722667 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF1AC521353336700722667 /* WebBrowserViewController.xib */; };
+		CAF1AC5B1353336700722667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3A1353336700722667 /* UIKit.framework */; };
+		CAF1AC5C1353336700722667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3C1353336700722667 /* Foundation.framework */; };
+		CAF1AC5D1353336700722667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AC3E1353336700722667 /* CoreGraphics.framework */; };
+		CAF1AC651353336700722667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF1AC631353336700722667 /* InfoPlist.strings */; };
+		CAF1AC681353336700722667 /* WebBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CAF1AC671353336700722667 /* WebBrowserTests.h */; };
+		CAF1AC6A1353336700722667 /* WebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1AC691353336700722667 /* WebBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF1AC5E1353336700722667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF1AC2D1353336700722667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF1AC351353336700722667;
+			remoteInfo = WebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF1AC361353336700722667 /* WebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF1AC3A1353336700722667 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAF1AC3C1353336700722667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAF1AC3E1353336700722667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAF1AC421353336700722667 /* WebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebBrowser-Info.plist"; sourceTree = "<group>"; };
+		CAF1AC441353336700722667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF1AC461353336700722667 /* WebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		CAF1AC471353336700722667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF1AC491353336700722667 /* WebBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserAppDelegate.h; sourceTree = "<group>"; };
+		CAF1AC4A1353336700722667 /* WebBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserAppDelegate.m; sourceTree = "<group>"; };
+		CAF1AC4D1353336700722667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CAF1AC4F1353336700722667 /* WebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		CAF1AC501353336700722667 /* WebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		CAF1AC531353336700722667 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WebBrowserViewController.xib; sourceTree = "<group>"; };
+		CAF1AC5A1353336700722667 /* WebBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF1AC621353336700722667 /* WebBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		CAF1AC641353336700722667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAF1AC661353336700722667 /* WebBrowserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		CAF1AC671353336700722667 /* WebBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserTests.h; sourceTree = "<group>"; };
+		CAF1AC691353336700722667 /* WebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF1AC331353336700722667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC3B1353336700722667 /* UIKit.framework in Frameworks */,
+				CAF1AC3D1353336700722667 /* Foundation.framework in Frameworks */,
+				CAF1AC3F1353336700722667 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF1AC561353336700722667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC5B1353336700722667 /* UIKit.framework in Frameworks */,
+				CAF1AC5C1353336700722667 /* Foundation.framework in Frameworks */,
+				CAF1AC5D1353336700722667 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF1AC2B1353336700722667 = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC401353336700722667 /* WebBrowser */,
+				CAF1AC601353336700722667 /* WebBrowserTests */,
+				CAF1AC391353336700722667 /* Frameworks */,
+				CAF1AC371353336700722667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF1AC371353336700722667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC361353336700722667 /* WebBrowser.app */,
+				CAF1AC5A1353336700722667 /* WebBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF1AC391353336700722667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC3A1353336700722667 /* UIKit.framework */,
+				CAF1AC3C1353336700722667 /* Foundation.framework */,
+				CAF1AC3E1353336700722667 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF1AC401353336700722667 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC491353336700722667 /* WebBrowserAppDelegate.h */,
+				CAF1AC4A1353336700722667 /* WebBrowserAppDelegate.m */,
+				CAF1AC4C1353336700722667 /* MainWindow.xib */,
+				CAF1AC4F1353336700722667 /* WebBrowserViewController.h */,
+				CAF1AC501353336700722667 /* WebBrowserViewController.m */,
+				CAF1AC521353336700722667 /* WebBrowserViewController.xib */,
+				CAF1AC411353336700722667 /* Supporting Files */,
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		CAF1AC411353336700722667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC421353336700722667 /* WebBrowser-Info.plist */,
+				CAF1AC431353336700722667 /* InfoPlist.strings */,
+				CAF1AC461353336700722667 /* WebBrowser-Prefix.pch */,
+				CAF1AC471353336700722667 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF1AC601353336700722667 /* WebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC671353336700722667 /* WebBrowserTests.h */,
+				CAF1AC691353336700722667 /* WebBrowserTests.m */,
+				CAF1AC611353336700722667 /* Supporting Files */,
+			);
+			path = WebBrowserTests;
+			sourceTree = "<group>";
+		};
+		CAF1AC611353336700722667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF1AC621353336700722667 /* WebBrowserTests-Info.plist */,
+				CAF1AC631353336700722667 /* InfoPlist.strings */,
+				CAF1AC661353336700722667 /* WebBrowserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF1AC351353336700722667 /* WebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF1AC6D1353336700722667 /* Build configuration list for PBXNativeTarget "WebBrowser" */;
+			buildPhases = (
+				CAF1AC321353336700722667 /* Sources */,
+				CAF1AC331353336700722667 /* Frameworks */,
+				CAF1AC341353336700722667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebBrowser;
+			productName = WebBrowser;
+			productReference = CAF1AC361353336700722667 /* WebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF1AC591353336700722667 /* WebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF1AC701353336700722667 /* Build configuration list for PBXNativeTarget "WebBrowserTests" */;
+			buildPhases = (
+				CAF1AC551353336700722667 /* Sources */,
+				CAF1AC561353336700722667 /* Frameworks */,
+				CAF1AC571353336700722667 /* Resources */,
+				CAF1AC581353336700722667 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF1AC5F1353336700722667 /* PBXTargetDependency */,
+			);
+			name = WebBrowserTests;
+			productName = WebBrowserTests;
+			productReference = CAF1AC5A1353336700722667 /* WebBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF1AC2D1353336700722667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Wanna See";
+			};
+			buildConfigurationList = CAF1AC301353336700722667 /* Build configuration list for PBXProject "WebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAF1AC2B1353336700722667;
+			productRefGroup = CAF1AC371353336700722667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF1AC351353336700722667 /* WebBrowser */,
+				CAF1AC591353336700722667 /* WebBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF1AC341353336700722667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC451353336700722667 /* InfoPlist.strings in Resources */,
+				CAF1AC4E1353336700722667 /* MainWindow.xib in Resources */,
+				CAF1AC541353336700722667 /* WebBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF1AC571353336700722667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC651353336700722667 /* InfoPlist.strings in Resources */,
+				CAF1AC681353336700722667 /* WebBrowserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAF1AC581353336700722667 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF1AC321353336700722667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC481353336700722667 /* main.m in Sources */,
+				CAF1AC4B1353336700722667 /* WebBrowserAppDelegate.m in Sources */,
+				CAF1AC511353336700722667 /* WebBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF1AC551353336700722667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1AC6A1353336700722667 /* WebBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF1AC5F1353336700722667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF1AC351353336700722667 /* WebBrowser */;
+			targetProxy = CAF1AC5E1353336700722667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF1AC431353336700722667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF1AC441353336700722667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAF1AC4C1353336700722667 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF1AC4D1353336700722667 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CAF1AC521353336700722667 /* WebBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF1AC531353336700722667 /* en */,
+			);
+			name = WebBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+		CAF1AC631353336700722667 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF1AC641353336700722667 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF1AC6B1353336700722667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF1AC6C1353336700722667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CAF1AC6E1353336700722667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowser/WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowser/WebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAF1AC6F1353336700722667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowser/WebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowser/WebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAF1AC711353336700722667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebBrowser.app/WebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowserTests/WebBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowserTests/WebBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAF1AC721353336700722667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebBrowser.app/WebBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebBrowserTests/WebBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "WebBrowserTests/WebBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF1AC301353336700722667 /* Build configuration list for PBXProject "WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF1AC6B1353336700722667 /* Debug */,
+				CAF1AC6C1353336700722667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF1AC6D1353336700722667 /* Build configuration list for PBXNativeTarget "WebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF1AC6E1353336700722667 /* Debug */,
+				CAF1AC6F1353336700722667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAF1AC701353336700722667 /* Build configuration list for PBXNativeTarget "WebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF1AC711353336700722667 /* Debug */,
+				CAF1AC721353336700722667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF1AC2D1353336700722667 /* Project object */;
+}
