@@ -14,7 +14,7 @@
 
 @implementation ViewController
 @synthesize webview;
-@synthesize urlBar;
+@synthesize urlbar;
 
 - (void)viewDidLoad
 {
@@ -24,22 +24,26 @@
 
 - (void)viewDidUnload
 {
-    [self setUrlBar:nil];
     [self setWebview:nil];
+    [self setUrlbar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    } else {
+        return YES;
+    }
 }
 
 - (IBAction)goButton:(id)sender {
-    NSURL * url = [NSURL URLWithString:[urlBar text]];
+    NSURL * url = [NSURL URLWithString:[urlbar text]];
     NSURLRequest * req = [NSURLRequest requestWithURL:url];
     
     [webview loadRequest:req];
-    [urlBar resignFirstResponder];
+    [urlbar resignFirstResponder];
 }
 @end

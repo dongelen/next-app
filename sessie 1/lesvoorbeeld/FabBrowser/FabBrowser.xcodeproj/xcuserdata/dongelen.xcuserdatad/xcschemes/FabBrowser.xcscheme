@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAE3C8851601189800136D63"
+               BlueprintIdentifier = "CAE3C90D16011D7E00136D63"
                BuildableName = "FabBrowser.app"
                BlueprintName = "FabBrowser"
                ReferencedContainer = "container:FabBrowser.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAE3C8A61601189800136D63"
+               BlueprintIdentifier = "CAE3C93116011D7E00136D63"
                BuildableName = "FabBrowserTests.octest"
                BlueprintName = "FabBrowserTests"
                ReferencedContainer = "container:FabBrowser.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CAE3C8851601189800136D63"
+            BlueprintIdentifier = "CAE3C90D16011D7E00136D63"
             BuildableName = "FabBrowser.app"
             BlueprintName = "FabBrowser"
             ReferencedContainer = "container:FabBrowser.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CAE3C8851601189800136D63"
+            BlueprintIdentifier = "CAE3C90D16011D7E00136D63"
             BuildableName = "FabBrowser.app"
             BlueprintName = "FabBrowser"
             ReferencedContainer = "container:FabBrowser.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CAE3C8851601189800136D63"
+            BlueprintIdentifier = "CAE3C90D16011D7E00136D63"
             BuildableName = "FabBrowser.app"
             BlueprintName = "FabBrowser"
             ReferencedContainer = "container:FabBrowser.xcodeproj">
