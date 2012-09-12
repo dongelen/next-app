@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE3C7771600ACEC00136D63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C7761600ACEC00136D63 /* UIKit.framework */; };
+		CAE3C7791600ACEC00136D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C7781600ACEC00136D63 /* Foundation.framework */; };
+		CAE3C77B1600ACEC00136D63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C77A1600ACEC00136D63 /* CoreGraphics.framework */; };
+		CAE3C7811600ACEC00136D63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE3C77F1600ACEC00136D63 /* InfoPlist.strings */; };
+		CAE3C7831600ACEC00136D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3C7821600ACEC00136D63 /* main.m */; };
+		CAE3C7871600ACEC00136D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3C7861600ACEC00136D63 /* AppDelegate.m */; };
+		CAE3C78A1600ACED00136D63 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE3C7881600ACED00136D63 /* MainStoryboard.storyboard */; };
+		CAE3C78D1600ACED00136D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3C78C1600ACED00136D63 /* ViewController.m */; };
+		CAE3C7951600ACED00136D63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C7941600ACED00136D63 /* SenTestingKit.framework */; };
+		CAE3C7961600ACED00136D63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C7761600ACEC00136D63 /* UIKit.framework */; };
+		CAE3C7971600ACED00136D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE3C7781600ACEC00136D63 /* Foundation.framework */; };
+		CAE3C79F1600ACED00136D63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE3C79D1600ACED00136D63 /* InfoPlist.strings */; };
+		CAE3C7A21600ACED00136D63 /* ChangeTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3C7A11600ACED00136D63 /* ChangeTextTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE3C7981600ACED00136D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE3C7691600ACEC00136D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE3C7711600ACEC00136D63;
+			remoteInfo = ChangeText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE3C7721600ACEC00136D63 /* ChangeText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE3C7761600ACEC00136D63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAE3C7781600ACEC00136D63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAE3C77A1600ACEC00136D63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAE3C77E1600ACEC00136D63 /* ChangeText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeText-Info.plist"; sourceTree = "<group>"; };
+		CAE3C7801600ACEC00136D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE3C7821600ACEC00136D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE3C7841600ACEC00136D63 /* ChangeText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChangeText-Prefix.pch"; sourceTree = "<group>"; };
+		CAE3C7851600ACEC00136D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE3C7861600ACEC00136D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE3C7891600ACED00136D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAE3C78B1600ACED00136D63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAE3C78C1600ACED00136D63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAE3C7931600ACED00136D63 /* ChangeTextTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeTextTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE3C7941600ACED00136D63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAE3C79C1600ACED00136D63 /* ChangeTextTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangeTextTests-Info.plist"; sourceTree = "<group>"; };
+		CAE3C79E1600ACED00136D63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE3C7A01600ACED00136D63 /* ChangeTextTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeTextTests.h; sourceTree = "<group>"; };
+		CAE3C7A11600ACED00136D63 /* ChangeTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeTextTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE3C76F1600ACEC00136D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C7771600ACEC00136D63 /* UIKit.framework in Frameworks */,
+				CAE3C7791600ACEC00136D63 /* Foundation.framework in Frameworks */,
+				CAE3C77B1600ACEC00136D63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE3C78F1600ACED00136D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C7951600ACED00136D63 /* SenTestingKit.framework in Frameworks */,
+				CAE3C7961600ACED00136D63 /* UIKit.framework in Frameworks */,
+				CAE3C7971600ACED00136D63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE3C7671600ACEC00136D63 = {
+			isa = PBXGroup;
+			children = (
+				CAE3C77C1600ACEC00136D63 /* ChangeText */,
+				CAE3C79A1600ACED00136D63 /* ChangeTextTests */,
+				CAE3C7751600ACEC00136D63 /* Frameworks */,
+				CAE3C7731600ACEC00136D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE3C7731600ACEC00136D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C7721600ACEC00136D63 /* ChangeText.app */,
+				CAE3C7931600ACED00136D63 /* ChangeTextTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE3C7751600ACEC00136D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C7761600ACEC00136D63 /* UIKit.framework */,
+				CAE3C7781600ACEC00136D63 /* Foundation.framework */,
+				CAE3C77A1600ACEC00136D63 /* CoreGraphics.framework */,
+				CAE3C7941600ACED00136D63 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE3C77C1600ACEC00136D63 /* ChangeText */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C7851600ACEC00136D63 /* AppDelegate.h */,
+				CAE3C7861600ACEC00136D63 /* AppDelegate.m */,
+				CAE3C7881600ACED00136D63 /* MainStoryboard.storyboard */,
+				CAE3C78B1600ACED00136D63 /* ViewController.h */,
+				CAE3C78C1600ACED00136D63 /* ViewController.m */,
+				CAE3C77D1600ACEC00136D63 /* Supporting Files */,
+			);
+			path = ChangeText;
+			sourceTree = "<group>";
+		};
+		CAE3C77D1600ACEC00136D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C77E1600ACEC00136D63 /* ChangeText-Info.plist */,
+				CAE3C77F1600ACEC00136D63 /* InfoPlist.strings */,
+				CAE3C7821600ACEC00136D63 /* main.m */,
+				CAE3C7841600ACEC00136D63 /* ChangeText-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE3C79A1600ACED00136D63 /* ChangeTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C7A01600ACED00136D63 /* ChangeTextTests.h */,
+				CAE3C7A11600ACED00136D63 /* ChangeTextTests.m */,
+				CAE3C79B1600ACED00136D63 /* Supporting Files */,
+			);
+			path = ChangeTextTests;
+			sourceTree = "<group>";
+		};
+		CAE3C79B1600ACED00136D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3C79C1600ACED00136D63 /* ChangeTextTests-Info.plist */,
+				CAE3C79D1600ACED00136D63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE3C7711600ACEC00136D63 /* ChangeText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE3C7A51600ACED00136D63 /* Build configuration list for PBXNativeTarget "ChangeText" */;
+			buildPhases = (
+				CAE3C76E1600ACEC00136D63 /* Sources */,
+				CAE3C76F1600ACEC00136D63 /* Frameworks */,
+				CAE3C7701600ACEC00136D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeText;
+			productName = ChangeText;
+			productReference = CAE3C7721600ACEC00136D63 /* ChangeText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE3C7921600ACED00136D63 /* ChangeTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE3C7A81600ACED00136D63 /* Build configuration list for PBXNativeTarget "ChangeTextTests" */;
+			buildPhases = (
+				CAE3C78E1600ACED00136D63 /* Sources */,
+				CAE3C78F1600ACED00136D63 /* Frameworks */,
+				CAE3C7901600ACED00136D63 /* Resources */,
+				CAE3C7911600ACED00136D63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE3C7991600ACED00136D63 /* PBXTargetDependency */,
+			);
+			name = ChangeTextTests;
+			productName = ChangeTextTests;
+			productReference = CAE3C7931600ACED00136D63 /* ChangeTextTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE3C7691600ACEC00136D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Raymond Van Dongelen";
+			};
+			buildConfigurationList = CAE3C76C1600ACEC00136D63 /* Build configuration list for PBXProject "ChangeText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAE3C7671600ACEC00136D63;
+			productRefGroup = CAE3C7731600ACEC00136D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE3C7711600ACEC00136D63 /* ChangeText */,
+				CAE3C7921600ACED00136D63 /* ChangeTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE3C7701600ACEC00136D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C7811600ACEC00136D63 /* InfoPlist.strings in Resources */,
+				CAE3C78A1600ACED00136D63 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE3C7901600ACED00136D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C79F1600ACED00136D63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAE3C7911600ACED00136D63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE3C76E1600ACEC00136D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C7831600ACEC00136D63 /* main.m in Sources */,
+				CAE3C7871600ACEC00136D63 /* AppDelegate.m in Sources */,
+				CAE3C78D1600ACED00136D63 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE3C78E1600ACED00136D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3C7A21600ACED00136D63 /* ChangeTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE3C7991600ACED00136D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE3C7711600ACEC00136D63 /* ChangeText */;
+			targetProxy = CAE3C7981600ACED00136D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE3C77F1600ACEC00136D63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE3C7801600ACEC00136D63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAE3C7881600ACED00136D63 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE3C7891600ACED00136D63 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE3C79D1600ACED00136D63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE3C79E1600ACED00136D63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE3C7A31600ACED00136D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAE3C7A41600ACED00136D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE3C7A61600ACED00136D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeText/ChangeText-Prefix.pch";
+				INFOPLIST_FILE = "ChangeText/ChangeText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAE3C7A71600ACED00136D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeText/ChangeText-Prefix.pch";
+				INFOPLIST_FILE = "ChangeText/ChangeText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAE3C7A91600ACED00136D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeText.app/ChangeText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeText/ChangeText-Prefix.pch";
+				INFOPLIST_FILE = "ChangeTextTests/ChangeTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAE3C7AA1600ACED00136D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChangeText.app/ChangeText";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChangeText/ChangeText-Prefix.pch";
+				INFOPLIST_FILE = "ChangeTextTests/ChangeTextTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE3C76C1600ACEC00136D63 /* Build configuration list for PBXProject "ChangeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE3C7A31600ACED00136D63 /* Debug */,
+				CAE3C7A41600ACED00136D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE3C7A51600ACED00136D63 /* Build configuration list for PBXNativeTarget "ChangeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE3C7A61600ACED00136D63 /* Debug */,
+				CAE3C7A71600ACED00136D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE3C7A81600ACED00136D63 /* Build configuration list for PBXNativeTarget "ChangeTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE3C7A91600ACED00136D63 /* Debug */,
+				CAE3C7AA1600ACED00136D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE3C7691600ACEC00136D63 /* Project object */;
+}
