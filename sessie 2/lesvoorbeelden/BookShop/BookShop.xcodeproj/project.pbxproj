@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEC784F16074C450093C973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC784E16074C450093C973 /* UIKit.framework */; };
+		CAEC785116074C450093C973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC785016074C450093C973 /* Foundation.framework */; };
+		CAEC785316074C450093C973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC785216074C450093C973 /* CoreGraphics.framework */; };
+		CAEC785916074C450093C973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEC785716074C450093C973 /* InfoPlist.strings */; };
+		CAEC785B16074C450093C973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC785A16074C450093C973 /* main.m */; };
+		CAEC785F16074C450093C973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC785E16074C450093C973 /* AppDelegate.m */; };
+		CAEC786216074C450093C973 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEC786016074C450093C973 /* MainStoryboard_iPhone.storyboard */; };
+		CAEC786516074C450093C973 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEC786316074C450093C973 /* MainStoryboard_iPad.storyboard */; };
+		CAEC786816074C450093C973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC786716074C450093C973 /* ViewController.m */; };
+		CAEC787016074C450093C973 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC786F16074C450093C973 /* SenTestingKit.framework */; };
+		CAEC787116074C450093C973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC784E16074C450093C973 /* UIKit.framework */; };
+		CAEC787216074C450093C973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEC785016074C450093C973 /* Foundation.framework */; };
+		CAEC787A16074C450093C973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEC787816074C450093C973 /* InfoPlist.strings */; };
+		CAEC787D16074C450093C973 /* BookShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC787C16074C450093C973 /* BookShopTests.m */; };
+		CAEC788816074C8F0093C973 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC788716074C8F0093C973 /* Book.m */; };
+		CAEC788B160750C00093C973 /* Books.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC788A160750C00093C973 /* Books.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEC787316074C450093C973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEC784116074C450093C973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEC784916074C450093C973;
+			remoteInfo = BookShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEC784A16074C450093C973 /* BookShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEC784E16074C450093C973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAEC785016074C450093C973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAEC785216074C450093C973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAEC785616074C450093C973 /* BookShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookShop-Info.plist"; sourceTree = "<group>"; };
+		CAEC785816074C450093C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEC785A16074C450093C973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEC785C16074C450093C973 /* BookShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookShop-Prefix.pch"; sourceTree = "<group>"; };
+		CAEC785D16074C450093C973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEC785E16074C450093C973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEC786116074C450093C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CAEC786416074C450093C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CAEC786616074C450093C973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEC786716074C450093C973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEC786E16074C450093C973 /* BookShopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookShopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEC786F16074C450093C973 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAEC787716074C450093C973 /* BookShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookShopTests-Info.plist"; sourceTree = "<group>"; };
+		CAEC787916074C450093C973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEC787B16074C450093C973 /* BookShopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShopTests.h; sourceTree = "<group>"; };
+		CAEC787C16074C450093C973 /* BookShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShopTests.m; sourceTree = "<group>"; };
+		CAEC788616074C8F0093C973 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		CAEC788716074C8F0093C973 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		CAEC7889160750C00093C973 /* Books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Books.h; path = BookShopTests/Books.h; sourceTree = SOURCE_ROOT; };
+		CAEC788A160750C00093C973 /* Books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Books.m; path = BookShopTests/Books.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEC784716074C450093C973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC784F16074C450093C973 /* UIKit.framework in Frameworks */,
+				CAEC785116074C450093C973 /* Foundation.framework in Frameworks */,
+				CAEC785316074C450093C973 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEC786A16074C450093C973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC787016074C450093C973 /* SenTestingKit.framework in Frameworks */,
+				CAEC787116074C450093C973 /* UIKit.framework in Frameworks */,
+				CAEC787216074C450093C973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEC783F16074C450093C973 = {
+			isa = PBXGroup;
+			children = (
+				CAEC785416074C450093C973 /* BookShop */,
+				CAEC787516074C450093C973 /* BookShopTests */,
+				CAEC784D16074C450093C973 /* Frameworks */,
+				CAEC784B16074C450093C973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEC784B16074C450093C973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC784A16074C450093C973 /* BookShop.app */,
+				CAEC786E16074C450093C973 /* BookShopTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEC784D16074C450093C973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC784E16074C450093C973 /* UIKit.framework */,
+				CAEC785016074C450093C973 /* Foundation.framework */,
+				CAEC785216074C450093C973 /* CoreGraphics.framework */,
+				CAEC786F16074C450093C973 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEC785416074C450093C973 /* BookShop */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC785D16074C450093C973 /* AppDelegate.h */,
+				CAEC785E16074C450093C973 /* AppDelegate.m */,
+				CAEC786016074C450093C973 /* MainStoryboard_iPhone.storyboard */,
+				CAEC786316074C450093C973 /* MainStoryboard_iPad.storyboard */,
+				CAEC786616074C450093C973 /* ViewController.h */,
+				CAEC786716074C450093C973 /* ViewController.m */,
+				CAEC785516074C450093C973 /* Supporting Files */,
+				CAEC788C1607514C0093C973 /* Model */,
+			);
+			path = BookShop;
+			sourceTree = "<group>";
+		};
+		CAEC785516074C450093C973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC785616074C450093C973 /* BookShop-Info.plist */,
+				CAEC785716074C450093C973 /* InfoPlist.strings */,
+				CAEC785A16074C450093C973 /* main.m */,
+				CAEC785C16074C450093C973 /* BookShop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEC787516074C450093C973 /* BookShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC787B16074C450093C973 /* BookShopTests.h */,
+				CAEC787C16074C450093C973 /* BookShopTests.m */,
+				CAEC787616074C450093C973 /* Supporting Files */,
+			);
+			path = BookShopTests;
+			sourceTree = "<group>";
+		};
+		CAEC787616074C450093C973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC787716074C450093C973 /* BookShopTests-Info.plist */,
+				CAEC787816074C450093C973 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEC788C1607514C0093C973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC788616074C8F0093C973 /* Book.h */,
+				CAEC788716074C8F0093C973 /* Book.m */,
+				CAEC7889160750C00093C973 /* Books.h */,
+				CAEC788A160750C00093C973 /* Books.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEC784916074C450093C973 /* BookShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEC788016074C450093C973 /* Build configuration list for PBXNativeTarget "BookShop" */;
+			buildPhases = (
+				CAEC784616074C450093C973 /* Sources */,
+				CAEC784716074C450093C973 /* Frameworks */,
+				CAEC784816074C450093C973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookShop;
+			productName = BookShop;
+			productReference = CAEC784A16074C450093C973 /* BookShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEC786D16074C450093C973 /* BookShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEC788316074C450093C973 /* Build configuration list for PBXNativeTarget "BookShopTests" */;
+			buildPhases = (
+				CAEC786916074C450093C973 /* Sources */,
+				CAEC786A16074C450093C973 /* Frameworks */,
+				CAEC786B16074C450093C973 /* Resources */,
+				CAEC786C16074C450093C973 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEC787416074C450093C973 /* PBXTargetDependency */,
+			);
+			name = BookShopTests;
+			productName = BookShopTests;
+			productReference = CAEC786E16074C450093C973 /* BookShopTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEC784116074C450093C973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Raymond Van Dongelen";
+			};
+			buildConfigurationList = CAEC784416074C450093C973 /* Build configuration list for PBXProject "BookShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAEC783F16074C450093C973;
+			productRefGroup = CAEC784B16074C450093C973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEC784916074C450093C973 /* BookShop */,
+				CAEC786D16074C450093C973 /* BookShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEC784816074C450093C973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC785916074C450093C973 /* InfoPlist.strings in Resources */,
+				CAEC786216074C450093C973 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CAEC786516074C450093C973 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEC786B16074C450093C973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC787A16074C450093C973 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAEC786C16074C450093C973 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEC784616074C450093C973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC785B16074C450093C973 /* main.m in Sources */,
+				CAEC785F16074C450093C973 /* AppDelegate.m in Sources */,
+				CAEC786816074C450093C973 /* ViewController.m in Sources */,
+				CAEC788816074C8F0093C973 /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEC786916074C450093C973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEC787D16074C450093C973 /* BookShopTests.m in Sources */,
+				CAEC788B160750C00093C973 /* Books.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEC787416074C450093C973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEC784916074C450093C973 /* BookShop */;
+			targetProxy = CAEC787316074C450093C973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEC785716074C450093C973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEC785816074C450093C973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAEC786016074C450093C973 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEC786116074C450093C973 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEC786316074C450093C973 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEC786416074C450093C973 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEC787816074C450093C973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEC787916074C450093C973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEC787E16074C450093C973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEC787F16074C450093C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEC788116074C450093C973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookShop/BookShop-Prefix.pch";
+				INFOPLIST_FILE = "BookShop/BookShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAEC788216074C450093C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookShop/BookShop-Prefix.pch";
+				INFOPLIST_FILE = "BookShop/BookShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAEC788416074C450093C973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookShop.app/BookShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookShop/BookShop-Prefix.pch";
+				INFOPLIST_FILE = "BookShopTests/BookShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAEC788516074C450093C973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookShop.app/BookShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookShop/BookShop-Prefix.pch";
+				INFOPLIST_FILE = "BookShopTests/BookShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEC784416074C450093C973 /* Build configuration list for PBXProject "BookShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEC787E16074C450093C973 /* Debug */,
+				CAEC787F16074C450093C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEC788016074C450093C973 /* Build configuration list for PBXNativeTarget "BookShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEC788116074C450093C973 /* Debug */,
+				CAEC788216074C450093C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEC788316074C450093C973 /* Build configuration list for PBXNativeTarget "BookShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEC788416074C450093C973 /* Debug */,
+				CAEC788516074C450093C973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEC784116074C450093C973 /* Project object */;
+}
