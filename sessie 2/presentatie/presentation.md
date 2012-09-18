@@ -99,10 +99,6 @@ In header file:
 
 @property (nonatomic, retain) NSString * author;
 
-In implementation file:
-
-@synthesize author;
-
 
 !
 
