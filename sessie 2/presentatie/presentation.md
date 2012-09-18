@@ -104,7 +104,7 @@ In header file:
 
 Message syntax
 ===
--(void) myMessage:(NSString*) param1 andOtherParam:(NSString*)param2 {
+-(void) myMessage:(NSString * ) param1 andOtherParam:(NSString * )param2 {
 	NSLog (@ " Message %@ and %@",
 	param1, param2); 
 }
