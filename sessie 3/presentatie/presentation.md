@@ -66,6 +66,7 @@ Toegift:
 * Geheugenmanagement: Lees hfd 3 pas als je de basis van de taal in de vingers hebt. 
 * Er zweven veel oude voorbeelden (voor iOs 5), mijdt deze voorbeelden eerst.
 
+!
 
 Volgende keer
 ===
