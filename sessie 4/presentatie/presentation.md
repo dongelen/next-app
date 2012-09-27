@@ -34,8 +34,8 @@ Views
 
 Code sessie 1
 ===
-* Maak HynoseView p125 tot 135
-* Extra opdracht, laat 4 hypnoseview zien
+* Maak HypnosisView p125 tot 135
+* Extra opdracht, laat 4 HypnosisViews zien
 
 !
 

@@ -1,14 +1,13 @@
 The next app 3
 ===
+* Terugblik
 * Delegates & protocols
-* Werken met location API
 
 !
 
 Sessie 2 was
 ===
 * Overzicht Objective C
-* Zorg ervoor dat je hfd 2 gelezen hebt!
 * Sla hoofdstuk 3 voorlopig over
 
 !
@@ -37,7 +36,7 @@ Code sessie 1
 
 UITextViewDelegate
 ===
-* Laat de viewContoller "conformeren" aan het protocol
+* Laat de ViewContoller "conformeren" aan het protocol
 * Lees het protocol voor de mogelijkheden en verplichtingen
 * Laat weten dat de class de delegate is
 
@@ -48,9 +47,7 @@ Verschillen met EventListers
 * Maar één "luisteraar" voor een object
 * Lidmaatschap is niet voor één event, maar voor alles.
 
-
 !
-
 
 Code sessie 2
 ===
@@ -59,11 +56,13 @@ Code sessie 2
 * Zet de code van p84 niet in de init, maar in de viewDidLoad
 * Voeg toe p97 bronze en silver challenge
 
+
+
 !
 
 Toegift:
 ===
-* Geheugenmanagement: Lees hfd 3 pas als je de basis van de taal in de vingers hebt. 
+* Geheugenmanagement: Lees hfd 3 pas als je de taal ECHT in de vingers hebt. 
 * Er zweven veel oude voorbeelden (voor iOs 5), mijdt deze voorbeelden eerst.
 
 !
