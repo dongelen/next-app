@@ -12,7 +12,7 @@ Sessie 3 was
 
 Storyboards
 ===
-* Het front van userfriendly maken van XCode
+* Het front van Apple's poging Xcode vriendelijk te maken
 * Goede manier om erachter te komen wat alles doet
 * Bekijk ook de bedenkingen van Big nerd in hfd 24
 

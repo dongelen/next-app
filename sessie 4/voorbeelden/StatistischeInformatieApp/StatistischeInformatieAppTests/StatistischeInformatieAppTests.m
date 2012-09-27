@@ -1,14 +1,14 @@
 //
-//  StoryBoardDemoTests.m
-//  StoryBoardDemoTests
+//  StatistischeInformatieAppTests.m
+//  StatistischeInformatieAppTests
 //
 //  Created by Raymond Van Dongelen on 9/27/12.
 //  Copyright (c) 2012 Raymond Van Dongelen. All rights reserved.
 //
 
-#import "StoryBoardDemoTests.h"
+#import "StatistischeInformatieAppTests.h"
 
-@implementation StoryBoardDemoTests
+@implementation StatistischeInformatieAppTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in StoryBoardDemoTests");
+    STFail(@"Unit tests are not implemented yet in StatistischeInformatieAppTests");
 }
 
 @end
