@@ -45,5 +45,19 @@ Messages that use should are expected to return a value and usually take an argu
 Messages that use will are not expected to return values. These messages are sent be- fore a change happens and are strictly informative. The delegate can implement a method to synchronize the application’s state or perform additional processing when such a message is received.
 Finally, the did messages are sent after a change happens. These messages are also strictly informative and give the delegate an opportunity to perform processing after the change.
 
+# Na de pauze
+
+Class aanmaken
+* Maak iPhone window project aan met naam Book
+* Maak een class aan met de naam Book
+* Laat class zien en vertel over header en implementation files
+* Maak test method “testNewBook” 
+* Include toevoegen 
+Property toevoegen
+* Property toevoegen 
+@property (nonatomic, retain) NSString * author;
+
+
+
 
 

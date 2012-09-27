@@ -49,14 +49,79 @@ Verschillen met EventListers
 
 !
 
-Code sessie 2
+Code sessie groep 1
+===
+Voeg aan het voorbeeld van de webbrowser een indicator toe als er geladen wordt. 
+Gebruik hiervoor een delegate op de Webview
+
+!
+
+Code sessie 2 groep 2
 ===
 * Maak het voorbeeld op pagina 84 van de Big nerd ranch 
 * Code staat op p84, en p86
 * Zet de code van p84 niet in de init, maar in de viewDidLoad
 * Voeg toe p97 bronze en silver challenge
 
+!
 
+
+Pauze
+===
+
+!
+
+Demostratie boekenclass
+===
+
+!
+
+
+Classes 
+===
+* Bestaan uit een header & implementation file
+* Header beschrijft buitenkant (.h)
+* Implementation bevat alle details over implementatie (.m)
+
+!
+
+Header
+===
+	@interface MyClass:NSObject{
+		int myVariable;
+	}
+	- (void) myMessage;
+
+
+
+!
+Implementation
+===
+		
+	@implementation MyClass
+	- (void) myMessage
+	{
+		NSLog (@"My message");
+	}
+	@end
+
+!
+
+Property 
+===
+In header file:
+
+@property (nonatomic, retain) NSString * author;
+
+
+!
+
+Afsluitende oefening
+===
+* Beginner: voeg toe ISBN
+* Beginner: voeg toe een lijst(array) van boeken
+* Gevorderd: Maak een Books class, deze bevat een rij boeken. 
+* Gevorderd: Er kan gezocht worden op het goedkoopste boek
 
 !
 
@@ -69,6 +134,6 @@ Toegift:
 
 Volgende keer
 ===
-* Lezen hoofdstuk 4 en 5
+* Lezen hoofdstuk 4, probeer de oefeningen 
 * Voeg aan de webbrowser uit les 1 een progress indicator toe
 * Zorg ervoor dat deze werkt op een iPhone/ iPad
