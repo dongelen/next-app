@@ -22,6 +22,10 @@
         [self.view setBackgroundColor:[UIColor purpleColor]];
         UITabBarItem * tbi = [self tabBarItem];
         [tbi setBadgeValue:@"2"];
+        UIImage * icon = [UIImage imageNamed:@"13-target"];
+        
+        
+        [tbi setImage:icon];
     }
     return self;
 }

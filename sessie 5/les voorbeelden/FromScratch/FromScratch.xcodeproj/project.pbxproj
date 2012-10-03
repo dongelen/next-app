@@ -23,6 +23,8 @@
 		CA0543EC16199BE100F98399 /* FromScratchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0543EB16199BE100F98399 /* FromScratchTests.m */; };
 		CA0543F716199D6900F98399 /* NieuwBoekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0543F616199D6900F98399 /* NieuwBoekViewController.m */; };
 		CA0543FA16199FDF00F98399 /* AllebBoekenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0543F916199FDF00F98399 /* AllebBoekenViewController.m */; };
+		CA0543FD161C492C00F98399 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0543FB161C492C00F98399 /* 06-magnify.png */; };
+		CA0543FE161C492D00F98399 /* 13-target.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0543FC161C492C00F98399 /* 13-target.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		CA0543F616199D6900F98399 /* NieuwBoekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NieuwBoekViewController.m; sourceTree = "<group>"; };
 		CA0543F816199FDF00F98399 /* AllebBoekenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllebBoekenViewController.h; sourceTree = "<group>"; };
 		CA0543F916199FDF00F98399 /* AllebBoekenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllebBoekenViewController.m; sourceTree = "<group>"; };
+		CA0543FB161C492C00F98399 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		CA0543FC161C492C00F98399 /* 13-target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-target.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 		CA0543C616199BE100F98399 /* FromScratch */ = {
 			isa = PBXGroup;
 			children = (
+				CA0543FB161C492C00F98399 /* 06-magnify.png */,
+				CA0543FC161C492C00F98399 /* 13-target.png */,
 				CA0543CF16199BE100F98399 /* AppDelegate.h */,
 				CA0543D016199BE100F98399 /* AppDelegate.m */,
 				CA0543C716199BE100F98399 /* Supporting Files */,
@@ -237,6 +243,8 @@
 				CA0543D316199BE100F98399 /* Default.png in Resources */,
 				CA0543D516199BE100F98399 /* Default@2x.png in Resources */,
 				CA0543D716199BE100F98399 /* Default-568h@2x.png in Resources */,
+				CA0543FD161C492C00F98399 /* 06-magnify.png in Resources */,
+				CA0543FE161C492D00F98399 /* 13-target.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
