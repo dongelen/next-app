@@ -1,20 +1,27 @@
 # Sessie 4
 
 ## Doel
-UIViewController 
+Laten zien hoe een app start
 
 ## Lezen en doen
-* Hoofdstuk 6, 7, 24 als achtergrond
-Van hoofdstuk 6 wordt maar de helft behandeld. Rest is oefening voor de studenten.
+* Hoofdstuk 7
+* Hoofdstuk 24 voor wie meer wil weten over story boards, die we verder niet meer gaan gebruiken.
 
-## Opzet
-Mogelijkheden van views bespreken.
 
 ## Demo 1
-Tonen van storyboards met tabviewcontroller
+* Aanmaken van een volledig leeg project
+* Aanmaken van een view controller (mag met nib)
+* Zetten van een achtergrond kleur in de view controller zodat we zien dat er iets gebeurd.
+* We voegen een message toe voor het zetten van de kleur
+-(void) setColor:(UIColor *) kleur 
 
-## Code sessie 1
-* Studenten gaan aan de slag met het tekenen.
 
 ## Demo 2
-* Voeg aan een bestaand voorbeeld code toe in viewWillAppear enzo.
+* Toevoegen van nog een scherm met een andere achtergrondkleur
+* Toevoegen van een tabbarcontroller 
+* De tabs krijgt nog een icoon enzo.
+
+Icoon wordt gehaald van de website	http://www.glyphish.com
+
+# Opgaven
+

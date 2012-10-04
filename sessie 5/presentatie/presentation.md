@@ -14,6 +14,8 @@ AppDelegate
 * Het punt waar de app start
 * Het punt om aan te geven waar we starten
 
+!
+
 UIWindow
 ===
 * Een window waarin een view kan worden geplaatst

@@ -1,6 +1,6 @@
 The next app 4
 ===
-* Werken met UIView, storyboard demo
+* Opbouwen van een app vanuit niets
 
 !
 
@@ -10,49 +10,40 @@ Sessie 3 was
 
 !
 
-Storyboards
-===
-* Het front van Apple's poging Xcode vriendelijk te maken
-* Goede manier om erachter te komen wat alles doet
-* Bekijk ook de bedenkingen van Big nerd in hfd 24
-
-!
-
 Demo 1
 ===
 
 !
 
-Views
+AppDelegate
 ===
-* Voor de gebruiker zichtbare elementen zijn kind van UIView
-* Rechthoek op het scherm
-* Met ondersteuning voor interactie
-
+* Het punt waar de app start
+* Het punt om aan te geven waar we starten
 
 !
 
-Code sessie 1
+UIWindow
 ===
-* Maak HypnosisView p125 tot 135
-* Extra opdracht, laat 4 HypnosisViews zien
+* Een window waarin een view kan worden geplaatst
+* Een window bevat een rootViewController
 
-!
 
-ViewControllers
+UIViewControllers
 ===
 * Laat een scherm zien, en is eigenaar van wat er in staat
 * Bevat vaak meerdere Views
 
+
 !
 
-Demo
+Demo 2
 ===
 
 
 !
 
-Cyclus
+
+Cyclus van initialisatie ViewController
 ===
 * initWithNib
 * viewDidLoad
@@ -65,5 +56,5 @@ Cyclus
 !
 Volgende keer
 ===
-* Lezen hoofdstuk 6, 24 scannen
-* Voeg aan de webbrowser uit les 1 een progress indicator toe
+* Lezen hoofdstuk 7, 24 scannen
+* Behandelen we UIView
