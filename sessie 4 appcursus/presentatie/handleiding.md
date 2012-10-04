@@ -1,5 +1,10 @@
 # Sessie 4
 
+# Bespreking voorbeelden
+In de onderstaande webcast een uitwerking van de webview opgave uit sessie 3.
+http://www.youtube.com/watch?v=f7eB48zd2g8
+
+
 ## Doel
 Laten zien hoe een app start
 
