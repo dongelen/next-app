@@ -40,6 +40,14 @@
     }
 }
 
+- (IBAction)goButton:(id)sender {
+    NSURL * url = [NSURL URLWithString:[urlbar text]];
+    NSURLRequest * req = [NSURLRequest requestWithURL:url];
+    
+    [webview loadRequest:req];
+    [urlbar resignFirstResponder];
+}
+
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
     [self.activity startAnimating];
@@ -50,11 +58,4 @@
 }
 
 
-- (IBAction)goButton:(id)sender {
-    NSURL * url = [NSURL URLWithString:[urlbar text]];
-    NSURLRequest * req = [NSURLRequest requestWithURL:url];
-    
-    [webview loadRequest:req];
-    [urlbar resignFirstResponder];
-}
 @end

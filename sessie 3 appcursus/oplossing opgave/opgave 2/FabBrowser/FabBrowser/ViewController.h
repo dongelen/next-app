@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController <UIWebViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UIWebView *webview;
 @property (weak, nonatomic) IBOutlet UITextField *urlbar;
 - (IBAction)goButton:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
+
 @end

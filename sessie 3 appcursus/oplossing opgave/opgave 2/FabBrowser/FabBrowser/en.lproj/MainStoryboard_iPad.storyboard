@@ -38,25 +38,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <outlet property="delegate" destination="2" id="jeI-ca-5jm"/>
+                                    <outlet property="delegate" destination="2" id="AJQ-9r-Rri"/>
                                 </connections>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="z89-d3-JbO">
-                                <rect key="frame" x="424" y="37" width="20" height="20"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="f8b-S0-edu">
+                                <rect key="frame" x="431" y="37" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="activity" destination="z89-d3-JbO" id="tos-M5-3QF"/>
+                        <outlet property="activity" destination="f8b-S0-edu" id="3vp-x2-qmT"/>
                         <outlet property="urlbar" destination="2j7-7q-jIO" id="lAF-5i-pdb"/>
                         <outlet property="webview" destination="Fmm-VG-vJJ" id="a7e-2M-TAX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-287" y="-204"/>
+            <point key="canvasLocation" x="-253" y="-336"/>
         </scene>
     </scenes>
     <classes>

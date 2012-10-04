@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA98815F161E01580021C4F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA98815E161E01580021C4F2 /* UIKit.framework */; };
+		CA988161161E01580021C4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA988160161E01580021C4F2 /* Foundation.framework */; };
+		CA988163161E01580021C4F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA988162161E01580021C4F2 /* CoreGraphics.framework */; };
+		CA988169161E01580021C4F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA988167161E01580021C4F2 /* InfoPlist.strings */; };
+		CA98816B161E01580021C4F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98816A161E01580021C4F2 /* main.m */; };
+		CA98816F161E01580021C4F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98816E161E01580021C4F2 /* AppDelegate.m */; };
+		CA988171161E01580021C4F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA988170161E01580021C4F2 /* Default.png */; };
+		CA988173161E01580021C4F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA988172161E01580021C4F2 /* Default@2x.png */; };
+		CA988175161E01580021C4F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA988174161E01580021C4F2 /* Default-568h@2x.png */; };
+		CA98817D161E01580021C4F2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA98817C161E01580021C4F2 /* SenTestingKit.framework */; };
+		CA98817E161E01580021C4F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA98815E161E01580021C4F2 /* UIKit.framework */; };
+		CA98817F161E01580021C4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA988160161E01580021C4F2 /* Foundation.framework */; };
+		CA988187161E01580021C4F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA988185161E01580021C4F2 /* InfoPlist.strings */; };
+		CA98818A161E01580021C4F2 /* KleurenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA988189161E01580021C4F2 /* KleurenDemoTests.m */; };
+		CA988195161E03700021C4F2 /* KleurSchermViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA988194161E03700021C4F2 /* KleurSchermViewController.m */; };
+		CA988197161E13FB0021C4F2 /* 13-target.png in Resources */ = {isa = PBXBuildFile; fileRef = CA988196161E13FB0021C4F2 /* 13-target.png */; };
+		CA98819B161E17820021C4F2 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA988199161E17820021C4F2 /* ButtonViewController.m */; };
+		CA98819C161E17820021C4F2 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA98819A161E17820021C4F2 /* ButtonViewController.xib */; };
+		CA9881A0161E19B50021C4F2 /* MetKnopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98819E161E19B50021C4F2 /* MetKnopViewController.m */; };
+		CA9881A1161E19B50021C4F2 /* MetKnopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA98819F161E19B50021C4F2 /* MetKnopViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA988180161E01580021C4F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA988151161E01570021C4F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA988159161E01580021C4F2;
+			remoteInfo = KleurenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA98815A161E01580021C4F2 /* KleurenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KleurenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA98815E161E01580021C4F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA988160161E01580021C4F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA988162161E01580021C4F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA988166161E01580021C4F2 /* KleurenDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KleurenDemo-Info.plist"; sourceTree = "<group>"; };
+		CA988168161E01580021C4F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA98816A161E01580021C4F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA98816C161E01580021C4F2 /* KleurenDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KleurenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CA98816D161E01580021C4F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA98816E161E01580021C4F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA988170161E01580021C4F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA988172161E01580021C4F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA988174161E01580021C4F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA98817B161E01580021C4F2 /* KleurenDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KleurenDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA98817C161E01580021C4F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA988184161E01580021C4F2 /* KleurenDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KleurenDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CA988186161E01580021C4F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA988188161E01580021C4F2 /* KleurenDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KleurenDemoTests.h; sourceTree = "<group>"; };
+		CA988189161E01580021C4F2 /* KleurenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KleurenDemoTests.m; sourceTree = "<group>"; };
+		CA988193161E03700021C4F2 /* KleurSchermViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KleurSchermViewController.h; sourceTree = "<group>"; };
+		CA988194161E03700021C4F2 /* KleurSchermViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KleurSchermViewController.m; sourceTree = "<group>"; };
+		CA988196161E13FB0021C4F2 /* 13-target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-target.png"; sourceTree = "<group>"; };
+		CA988198161E17820021C4F2 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		CA988199161E17820021C4F2 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		CA98819A161E17820021C4F2 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		CA98819D161E19B50021C4F2 /* MetKnopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetKnopViewController.h; sourceTree = "<group>"; };
+		CA98819E161E19B50021C4F2 /* MetKnopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetKnopViewController.m; sourceTree = "<group>"; };
+		CA98819F161E19B50021C4F2 /* MetKnopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MetKnopViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA988157161E01580021C4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA98815F161E01580021C4F2 /* UIKit.framework in Frameworks */,
+				CA988161161E01580021C4F2 /* Foundation.framework in Frameworks */,
+				CA988163161E01580021C4F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA988177161E01580021C4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA98817D161E01580021C4F2 /* SenTestingKit.framework in Frameworks */,
+				CA98817E161E01580021C4F2 /* UIKit.framework in Frameworks */,
+				CA98817F161E01580021C4F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA98814F161E01570021C4F2 = {
+			isa = PBXGroup;
+			children = (
+				CA988164161E01580021C4F2 /* KleurenDemo */,
+				CA988182161E01580021C4F2 /* KleurenDemoTests */,
+				CA98815D161E01580021C4F2 /* Frameworks */,
+				CA98815B161E01580021C4F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA98815B161E01580021C4F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA98815A161E01580021C4F2 /* KleurenDemo.app */,
+				CA98817B161E01580021C4F2 /* KleurenDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA98815D161E01580021C4F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA98815E161E01580021C4F2 /* UIKit.framework */,
+				CA988160161E01580021C4F2 /* Foundation.framework */,
+				CA988162161E01580021C4F2 /* CoreGraphics.framework */,
+				CA98817C161E01580021C4F2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA988164161E01580021C4F2 /* KleurenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA988196161E13FB0021C4F2 /* 13-target.png */,
+				CA98816D161E01580021C4F2 /* AppDelegate.h */,
+				CA98816E161E01580021C4F2 /* AppDelegate.m */,
+				CA988193161E03700021C4F2 /* KleurSchermViewController.h */,
+				CA988194161E03700021C4F2 /* KleurSchermViewController.m */,
+				CA988198161E17820021C4F2 /* ButtonViewController.h */,
+				CA988199161E17820021C4F2 /* ButtonViewController.m */,
+				CA98819D161E19B50021C4F2 /* MetKnopViewController.h */,
+				CA98819E161E19B50021C4F2 /* MetKnopViewController.m */,
+				CA98819F161E19B50021C4F2 /* MetKnopViewController.xib */,
+				CA98819A161E17820021C4F2 /* ButtonViewController.xib */,
+				CA988165161E01580021C4F2 /* Supporting Files */,
+			);
+			path = KleurenDemo;
+			sourceTree = "<group>";
+		};
+		CA988165161E01580021C4F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA988166161E01580021C4F2 /* KleurenDemo-Info.plist */,
+				CA988167161E01580021C4F2 /* InfoPlist.strings */,
+				CA98816A161E01580021C4F2 /* main.m */,
+				CA98816C161E01580021C4F2 /* KleurenDemo-Prefix.pch */,
+				CA988170161E01580021C4F2 /* Default.png */,
+				CA988172161E01580021C4F2 /* Default@2x.png */,
+				CA988174161E01580021C4F2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA988182161E01580021C4F2 /* KleurenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA988188161E01580021C4F2 /* KleurenDemoTests.h */,
+				CA988189161E01580021C4F2 /* KleurenDemoTests.m */,
+				CA988183161E01580021C4F2 /* Supporting Files */,
+			);
+			path = KleurenDemoTests;
+			sourceTree = "<group>";
+		};
+		CA988183161E01580021C4F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA988184161E01580021C4F2 /* KleurenDemoTests-Info.plist */,
+				CA988185161E01580021C4F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA988159161E01580021C4F2 /* KleurenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA98818D161E01580021C4F2 /* Build configuration list for PBXNativeTarget "KleurenDemo" */;
+			buildPhases = (
+				CA988156161E01580021C4F2 /* Sources */,
+				CA988157161E01580021C4F2 /* Frameworks */,
+				CA988158161E01580021C4F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KleurenDemo;
+			productName = KleurenDemo;
+			productReference = CA98815A161E01580021C4F2 /* KleurenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA98817A161E01580021C4F2 /* KleurenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA988190161E01580021C4F2 /* Build configuration list for PBXNativeTarget "KleurenDemoTests" */;
+			buildPhases = (
+				CA988176161E01580021C4F2 /* Sources */,
+				CA988177161E01580021C4F2 /* Frameworks */,
+				CA988178161E01580021C4F2 /* Resources */,
+				CA988179161E01580021C4F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA988181161E01580021C4F2 /* PBXTargetDependency */,
+			);
+			name = KleurenDemoTests;
+			productName = KleurenDemoTests;
+			productReference = CA98817B161E01580021C4F2 /* KleurenDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA988151161E01570021C4F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Raymond Van Dongelen";
+			};
+			buildConfigurationList = CA988154161E01570021C4F2 /* Build configuration list for PBXProject "KleurenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA98814F161E01570021C4F2;
+			productRefGroup = CA98815B161E01580021C4F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA988159161E01580021C4F2 /* KleurenDemo */,
+				CA98817A161E01580021C4F2 /* KleurenDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA988158161E01580021C4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA988169161E01580021C4F2 /* InfoPlist.strings in Resources */,
+				CA988171161E01580021C4F2 /* Default.png in Resources */,
+				CA988173161E01580021C4F2 /* Default@2x.png in Resources */,
+				CA988175161E01580021C4F2 /* Default-568h@2x.png in Resources */,
+				CA988197161E13FB0021C4F2 /* 13-target.png in Resources */,
+				CA98819C161E17820021C4F2 /* ButtonViewController.xib in Resources */,
+				CA9881A1161E19B50021C4F2 /* MetKnopViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA988178161E01580021C4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA988187161E01580021C4F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA988179161E01580021C4F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA988156161E01580021C4F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA98816B161E01580021C4F2 /* main.m in Sources */,
+				CA98816F161E01580021C4F2 /* AppDelegate.m in Sources */,
+				CA988195161E03700021C4F2 /* KleurSchermViewController.m in Sources */,
+				CA98819B161E17820021C4F2 /* ButtonViewController.m in Sources */,
+				CA9881A0161E19B50021C4F2 /* MetKnopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA988176161E01580021C4F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA98818A161E01580021C4F2 /* KleurenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA988181161E01580021C4F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA988159161E01580021C4F2 /* KleurenDemo */;
+			targetProxy = CA988180161E01580021C4F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA988167161E01580021C4F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA988168161E01580021C4F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA988185161E01580021C4F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA988186161E01580021C4F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA98818B161E01580021C4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CA98818C161E01580021C4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA98818E161E01580021C4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KleurenDemo/KleurenDemo-Prefix.pch";
+				INFOPLIST_FILE = "KleurenDemo/KleurenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA98818F161E01580021C4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KleurenDemo/KleurenDemo-Prefix.pch";
+				INFOPLIST_FILE = "KleurenDemo/KleurenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA988191161E01580021C4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KleurenDemo.app/KleurenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KleurenDemo/KleurenDemo-Prefix.pch";
+				INFOPLIST_FILE = "KleurenDemoTests/KleurenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CA988192161E01580021C4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KleurenDemo.app/KleurenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KleurenDemo/KleurenDemo-Prefix.pch";
+				INFOPLIST_FILE = "KleurenDemoTests/KleurenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA988154161E01570021C4F2 /* Build configuration list for PBXProject "KleurenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA98818B161E01580021C4F2 /* Debug */,
+				CA98818C161E01580021C4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA98818D161E01580021C4F2 /* Build configuration list for PBXNativeTarget "KleurenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA98818E161E01580021C4F2 /* Debug */,
+				CA98818F161E01580021C4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA988190161E01580021C4F2 /* Build configuration list for PBXNativeTarget "KleurenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA988191161E01580021C4F2 /* Debug */,
+				CA988192161E01580021C4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA988151161E01570021C4F2 /* Project object */;
+}
