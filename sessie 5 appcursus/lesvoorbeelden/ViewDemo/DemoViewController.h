@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RodeView.h"
 
 @interface DemoViewController : UIViewController
-
+{
+    RodeView * view1;
+}
 @end

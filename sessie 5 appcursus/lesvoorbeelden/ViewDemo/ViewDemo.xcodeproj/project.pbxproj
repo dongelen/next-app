@@ -21,6 +21,8 @@
 		CAE25191162618D000A2E8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE25172162618CF00A2E8E6 /* Foundation.framework */; };
 		CAE25199162618D000A2E8E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE25197162618D000A2E8E6 /* InfoPlist.strings */; };
 		CAE2519C162618D000A2E8E6 /* ViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE2519B162618D000A2E8E6 /* ViewDemoTests.m */; };
+		CAE251A71626192800A2E8E6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE251A61626192800A2E8E6 /* DemoViewController.m */; };
+		CAE251AA162619E900A2E8E6 /* RodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE251A9162619E900A2E8E6 /* RodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		CAE25198162618D000A2E8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAE2519A162618D000A2E8E6 /* ViewDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDemoTests.h; sourceTree = "<group>"; };
 		CAE2519B162618D000A2E8E6 /* ViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDemoTests.m; sourceTree = "<group>"; };
+		CAE251A51626192800A2E8E6 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = ../DemoViewController.h; sourceTree = "<group>"; };
+		CAE251A61626192800A2E8E6 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = ../DemoViewController.m; sourceTree = "<group>"; };
+		CAE251A8162619E900A2E8E6 /* RodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RodeView.h; sourceTree = "<group>"; };
+		CAE251A9162619E900A2E8E6 /* RodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		CAE25176162618CF00A2E8E6 /* ViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CAE251A51626192800A2E8E6 /* DemoViewController.h */,
+				CAE251A61626192800A2E8E6 /* DemoViewController.m */,
+				CAE251A8162619E900A2E8E6 /* RodeView.h */,
+				CAE251A9162619E900A2E8E6 /* RodeView.m */,
 				CAE2517F162618CF00A2E8E6 /* AppDelegate.h */,
 				CAE25180162618CF00A2E8E6 /* AppDelegate.m */,
 				CAE25177162618CF00A2E8E6 /* Supporting Files */,
@@ -263,6 +273,8 @@
 			files = (
 				CAE2517D162618CF00A2E8E6 /* main.m in Sources */,
 				CAE25181162618CF00A2E8E6 /* AppDelegate.m in Sources */,
+				CAE251A71626192800A2E8E6 /* DemoViewController.m in Sources */,
+				CAE251AA162619E900A2E8E6 /* RodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
