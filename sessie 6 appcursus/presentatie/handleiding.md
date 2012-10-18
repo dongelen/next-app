@@ -1,7 +1,7 @@
 # Sessie 6
 
 ## Doel
-Maken van een UITableViewController
+Maken van een UITableViewController en intro UINavigationController
 
 ## Lezen en doen
 * Hoofdstuk 9
@@ -72,6 +72,37 @@ Toevoegen van didselectrow
 # Demo 4
 Voegen een singleton toe aan het project. Doel is om de boeken op een goede plaats te hebben staan. 
 
+@implementation BookStore
+
+-(id) init
+{
+    self = [super init];
+    if (self){
+        allBooks =@[@"Big nerd ranch", @"Tropical truth", @"Punished by rewards"];
+    }
+    return self;
+}
+
+- (NSArray*)  books
+{
+    return allBooks;
+}
+
+
++ (BookStore*) sharedStore
+{
+    static BookStore * sharedStore = nil;
+    if (!sharedStore){
+        sharedStore = [[super allocWithZone:nil] init];
+    }
+    return sharedStore;
+}
+
++ (id) allocWithZone:(NSZone *)zone
+{
+    return [self sharedStore];
+}
+@end
 
 # Opgaven
 
@@ -88,8 +119,3 @@ Voeg verschillende secties toe
 ## Opgave 4
 Bouw support in voor het voorbeeld uit sessie 2. Hierbij hebben we een boeken class gemaakt.
 Pas hiervoor de BookStore zodanig aan dat hij gebruik maakt van de Books class die je al hebt gemaakt. 
-
-
-
-
-
