@@ -37,8 +37,5 @@
 
 - (IBAction)voegToe:(id)sender {
     NSLog (@"Op voeg toe gedrukt");
-    
-    [self.delegate nieuwBoekToegevoegd:
-        [Book bookWithAuthor:self.auteur.text andTitle:self.titel.text]];
 }
 @end

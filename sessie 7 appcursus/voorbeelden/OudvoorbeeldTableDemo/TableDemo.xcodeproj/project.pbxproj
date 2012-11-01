@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA6F827C16414A0600F99701 /* Boek.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F827B16414A0600F99701 /* Boek.m */; };
-		CA7397B61642CCB500E24780 /* Boek.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F827B16414A0600F99701 /* Boek.m */; };
-		CA7397C61642CEA000E24780 /* NieuwBoekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7397C41642CEA000E24780 /* NieuwBoekViewController.m */; };
-		CA7397C71642CEA000E24780 /* NieuwBoekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7397C51642CEA000E24780 /* NieuwBoekViewController.xib */; };
-		CA7397C91642CEE200E24780 /* NieuwBoekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7397C41642CEA000E24780 /* NieuwBoekViewController.m */; };
-		CA7397CA1642CEE500E24780 /* NieuwBoekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7397C51642CEA000E24780 /* NieuwBoekViewController.xib */; };
+		CA6F827C16414A0600F99701 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F827B16414A0600F99701 /* Book.m */; };
+		CA6F827E16414ED300F99701 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F827B16414A0600F99701 /* Book.m */; };
+		CA6F82821641522A00F99701 /* NieuwBoekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F82801641522A00F99701 /* NieuwBoekViewController.m */; };
+		CA6F82831641522A00F99701 /* NieuwBoekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6F82811641522A00F99701 /* NieuwBoekViewController.xib */; };
 		CAE98A4E162564A000278F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A4D162564A000278F90 /* UIKit.framework */; };
 		CAE98A50162564A000278F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A4F162564A000278F90 /* Foundation.framework */; };
 		CAE98A52162564A000278F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A51162564A000278F90 /* CoreGraphics.framework */; };
@@ -27,8 +25,8 @@
 		CAE98A6E162564A000278F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A4F162564A000278F90 /* Foundation.framework */; };
 		CAE98A76162564A000278F90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE98A74162564A000278F90 /* InfoPlist.strings */; };
 		CAE98A79162564A000278F90 /* TableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98A78162564A000278F90 /* TableDemoTests.m */; };
-		CAE98A841625650100278F90 /* BoekListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98A831625650100278F90 /* BoekListViewController.m */; };
-		CAE98A8B16256F1C00278F90 /* BoekStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98A8A16256F1C00278F90 /* BoekStore.m */; };
+		CAE98A841625650100278F90 /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98A831625650100278F90 /* BookListViewController.m */; };
+		CAE98A8B16256F1C00278F90 /* BookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98A8A16256F1C00278F90 /* BookStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA6F827A16414A0600F99701 /* Boek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boek.h; sourceTree = "<group>"; };
-		CA6F827B16414A0600F99701 /* Boek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boek.m; sourceTree = "<group>"; };
-		CA7397C31642CEA000E24780 /* NieuwBoekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NieuwBoekViewController.h; sourceTree = "<group>"; };
-		CA7397C41642CEA000E24780 /* NieuwBoekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NieuwBoekViewController.m; sourceTree = "<group>"; };
-		CA7397C51642CEA000E24780 /* NieuwBoekViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NieuwBoekViewController.xib; sourceTree = "<group>"; };
+		CA6F827A16414A0600F99701 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		CA6F827B16414A0600F99701 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		CA6F827F1641522A00F99701 /* NieuwBoekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NieuwBoekViewController.h; sourceTree = "<group>"; };
+		CA6F82801641522A00F99701 /* NieuwBoekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NieuwBoekViewController.m; sourceTree = "<group>"; };
+		CA6F82811641522A00F99701 /* NieuwBoekViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NieuwBoekViewController.xib; sourceTree = "<group>"; };
 		CAE98A49162564A000278F90 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE98A4D162564A000278F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAE98A4F162564A000278F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,10 +64,10 @@
 		CAE98A75162564A000278F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAE98A77162564A000278F90 /* TableDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableDemoTests.h; sourceTree = "<group>"; };
 		CAE98A78162564A000278F90 /* TableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableDemoTests.m; sourceTree = "<group>"; };
-		CAE98A821625650100278F90 /* BoekListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoekListViewController.h; sourceTree = "<group>"; };
-		CAE98A831625650100278F90 /* BoekListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoekListViewController.m; sourceTree = "<group>"; };
-		CAE98A8916256F1C00278F90 /* BoekStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoekStore.h; sourceTree = "<group>"; };
-		CAE98A8A16256F1C00278F90 /* BoekStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoekStore.m; sourceTree = "<group>"; };
+		CAE98A821625650100278F90 /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
+		CAE98A831625650100278F90 /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		CAE98A8916256F1C00278F90 /* BookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStore.h; sourceTree = "<group>"; };
+		CAE98A8A16256F1C00278F90 /* BookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,17 +127,17 @@
 		CAE98A53162564A000278F90 /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CA7397C31642CEA000E24780 /* NieuwBoekViewController.h */,
-				CA7397C41642CEA000E24780 /* NieuwBoekViewController.m */,
-				CA7397C51642CEA000E24780 /* NieuwBoekViewController.xib */,
-				CA6F827A16414A0600F99701 /* Boek.h */,
-				CA6F827B16414A0600F99701 /* Boek.m */,
+				CA6F827A16414A0600F99701 /* Book.h */,
+				CA6F827B16414A0600F99701 /* Book.m */,
 				CAE98A5C162564A000278F90 /* AppDelegate.h */,
 				CAE98A5D162564A000278F90 /* AppDelegate.m */,
-				CAE98A821625650100278F90 /* BoekListViewController.h */,
-				CAE98A831625650100278F90 /* BoekListViewController.m */,
-				CAE98A8916256F1C00278F90 /* BoekStore.h */,
-				CAE98A8A16256F1C00278F90 /* BoekStore.m */,
+				CAE98A821625650100278F90 /* BookListViewController.h */,
+				CAE98A831625650100278F90 /* BookListViewController.m */,
+				CA6F827F1641522A00F99701 /* NieuwBoekViewController.h */,
+				CA6F82801641522A00F99701 /* NieuwBoekViewController.m */,
+				CA6F82811641522A00F99701 /* NieuwBoekViewController.xib */,
+				CAE98A8916256F1C00278F90 /* BookStore.h */,
+				CAE98A8A16256F1C00278F90 /* BookStore.m */,
 				CAE98A54162564A000278F90 /* Supporting Files */,
 			);
 			path = TableDemo;
@@ -250,10 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE98A58162564A000278F90 /* InfoPlist.strings in Resources */,
-				CA7397CA1642CEE500E24780 /* NieuwBoekViewController.xib in Resources */,
 				CAE98A60162564A000278F90 /* Default.png in Resources */,
 				CAE98A62162564A000278F90 /* Default@2x.png in Resources */,
 				CAE98A64162564A000278F90 /* Default-568h@2x.png in Resources */,
+				CA6F82831641522A00F99701 /* NieuwBoekViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE98A76162564A000278F90 /* InfoPlist.strings in Resources */,
-				CA7397C71642CEA000E24780 /* NieuwBoekViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE98A5A162564A000278F90 /* main.m in Sources */,
-				CA7397C91642CEE200E24780 /* NieuwBoekViewController.m in Sources */,
 				CAE98A5E162564A000278F90 /* AppDelegate.m in Sources */,
-				CAE98A841625650100278F90 /* BoekListViewController.m in Sources */,
-				CA7397B61642CCB500E24780 /* Boek.m in Sources */,
-				CAE98A8B16256F1C00278F90 /* BoekStore.m in Sources */,
+				CAE98A841625650100278F90 /* BookListViewController.m in Sources */,
+				CA6F827E16414ED300F99701 /* Book.m in Sources */,
+				CAE98A8B16256F1C00278F90 /* BookStore.m in Sources */,
+				CA6F82821641522A00F99701 /* NieuwBoekViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE98A79162564A000278F90 /* TableDemoTests.m in Sources */,
-				CA6F827C16414A0600F99701 /* Boek.m in Sources */,
-				CA7397C61642CEA000E24780 /* NieuwBoekViewController.m in Sources */,
+				CA6F827C16414A0600F99701 /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

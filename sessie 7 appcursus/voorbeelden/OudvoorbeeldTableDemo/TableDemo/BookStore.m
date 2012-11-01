@@ -6,34 +6,38 @@
 //  Copyright (c) 2012 Raymond Van Dongelen. All rights reserved.
 //
 
-#import "BoekStore.h"
+#import "BookStore.h"
 
-@implementation BoekStore
+@implementation BookStore
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        boeken = [[NSMutableArray alloc]init];
-
-        // Standaard vulling
-        Boek * boek1 = [Boek bookWithAuthor:@"Kevin Kelly" andTitle:@"What technology wants"];
-        Boek * boek2 = [Boek bookWithAuthor:@"Joey Conway & Aaron Hillgass" andTitle:@"iOs Programming"];
+        Book * book1 = [Book bookWithAuthor:@"Annie MG Schmidt" andTitle:@"Jip en Janneke"];
+        books = [[NSMutableArray alloc] init];
+        [self addBook:book1];
         
-        [boeken addObject:boek1];
-        [boeken addObject:boek2];
+//        books = @[@"Big nerd ranch", @"Jip & Janneke", @"Punished by rewards"];
+    
     }
     return self;
 }
 
 - (NSArray *) allBooks{
-    return boeken;
+    return books;
 }
 
-#pragma mark Singleton spul
-+ (BoekStore *) sharedBooks
+- (void)addBook:(Book*)book
 {
-    static BoekStore * sharedBooks = nil;
+    [books addObject:book];
+}
+
+
+#pragma mark Singleton spul
++ (BookStore *) sharedBooks
+{
+    static BookStore * sharedBooks = nil;
     if (!sharedBooks){
         sharedBooks = [[super allocWithZone:nil] init];
     }

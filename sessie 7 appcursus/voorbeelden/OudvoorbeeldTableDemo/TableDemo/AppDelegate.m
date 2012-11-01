@@ -7,14 +7,14 @@
 //
 
 #import "AppDelegate.h"
-#import "BoekListViewController.h"
+#import "BookListViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    BoekListViewController * booklist = [[BoekListViewController alloc] initWithStyle:UITableViewStylePlain];
+    BookListViewController * booklist = [[BookListViewController alloc] initWithStyle:UITableViewStylePlain];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:booklist];
     

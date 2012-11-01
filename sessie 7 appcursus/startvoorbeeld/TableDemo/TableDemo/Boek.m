@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Raymond Van Dongelen. All rights reserved.
 //
 
-#import "Book.h"
+#import "Boek.h"
 
-@implementation Book
+@implementation Boek
 
 - (id)initBookWithAuthor:(NSString*)author andTitle:(NSString*)title
 {
@@ -22,7 +22,7 @@
 
 + (id)bookWithAuthor:(NSString *)author andTitle:(NSString *) title
 {
-    return [[Book alloc] initBookWithAuthor:author
+    return [[Boek alloc] initBookWithAuthor:author
                                    andTitle:title];
 }
 

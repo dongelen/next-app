@@ -9,10 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "Boek.h"
 
+@protocol NieuwBoekViewControllerDelegate
+-(void) nieuwBoekToegevoegd:(Boek*)boek;
+@end
 
 @interface NieuwBoekViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UITextField *titel;
 @property (weak, nonatomic) IBOutlet UITextField *auteur;
+@property (weak, nonatomic) id<NieuwBoekViewControllerDelegate> delegate;
+
 
 - (IBAction)voegToe:(id)sender;
 

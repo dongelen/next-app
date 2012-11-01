@@ -16,6 +16,8 @@
 
 - (NSArray *) allBooks;
 
+- (void)voegBoekToe:(Boek*)boek;
+
 + (BoekStore *) sharedBooks;
 
 @end

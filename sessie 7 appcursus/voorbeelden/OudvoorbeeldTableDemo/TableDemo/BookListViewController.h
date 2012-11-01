@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NieuwBoekViewController.h"
 
-@interface BoekListViewController : UITableViewController
+@interface BookListViewController : UITableViewController<UIPopoverControllerDelegate, NieuwBoekViewControllerDelegate>
 {
     NSArray * alleBoeken;
+    UIPopoverController * popover;
 }
 @end

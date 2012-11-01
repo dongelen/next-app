@@ -26,6 +26,11 @@
     return self;
 }
 
+- (void)voegBoekToe:(Boek*)boek
+{
+    [boeken addObject:boek];
+}
+
 - (NSArray *) allBooks{
     return boeken;
 }

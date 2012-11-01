@@ -6,21 +6,21 @@
 //  Copyright (c) 2012 Raymond Van Dongelen. All rights reserved.
 //
 
-#import "BookListViewController.h"
-#import "BookStore.h"
-#import "Book.h"
-@interface BookListViewController ()
+#import "BoekListViewController.h"
+#import "BoekStore.h"
+#import "NieuwBoekViewController.h"
+@interface BoekListViewController ()
 
 @end
 
-@implementation BookListViewController
+@implementation BoekListViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        self.title = @"Boeken applicatie";
-        [self reload];
+        self.title = @"Boeken";
+        [self laadOpnieuw];
     }
     return self;
 }
@@ -31,36 +31,37 @@
     self.navigationItem.rightBarButtonItem = anotherButton;
 }
 
--(void) reload
+- (void)laadOpnieuw
 {
-    alleBoeken = [[BookStore sharedBooks] allBooks];
+    alleBoeken = [[BoekStore sharedBooks] allBooks];
+
     [self.tableView reloadData];
 }
 
-
--(void)nieuwBoek
+-(void) nieuwBoek
 {
-    
+
     NieuwBoekViewController *nieuwBoek = [[NieuwBoekViewController alloc] initWithNibName:@"NieuwBoekViewController" bundle:nil];
     
     nieuwBoek.delegate = self;
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:nieuwBoek];
+    popover.delegate = self;
     
-    [popover setDelegate:self];
     [popover setPopoverContentSize:CGSizeMake(300, 600)];
     [popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
     
-    NSLog (@"Nieuw boek");
-    
 }
 
-- (void) nieuwBoekToegevoegd:(Book *)book
+- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
-    NSLog (@"Terug in de booklistviewcontroller");
-    [[BookStore sharedBooks] addBook:book];
+    NSLog (@"And its gone");
+}
+
+- (void) nieuwBoekToegevoegd:(Boek *)boek
+{
+    [[BoekStore sharedBooks] voegBoekToe:boek];
+    [self laadOpnieuw];
     [popover dismissPopoverAnimated:YES];
-    [self reload];
 }
 
 
@@ -81,16 +82,17 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-
+    
     if (!cell){
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    Book * book = alleBoeken[indexPath.row];
-    [[cell textLabel] setText:book.title];
+    Boek * boek = alleBoeken [indexPath.row];
+    
+    [[cell textLabel] setText:boek.title];
+    [[cell detailTextLabel] setText:boek.author];
     return cell;
 }
 

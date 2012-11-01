@@ -19,7 +19,6 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        self.title = @"Boeken applicatie";
         [self reload];
     }
     return self;

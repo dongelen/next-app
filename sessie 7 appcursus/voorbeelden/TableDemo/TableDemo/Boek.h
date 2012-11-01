@@ -10,17 +10,14 @@
 
 @interface Boek : NSObject
 
+- (void) showDetailsInLog;
+- (id)initBookWithAuthor:(NSString*)author andTitle:(NSString*)title;
+
++ (id)bookWithAuthor:(NSString *)author andTitle:(NSString *) title;
+
 @property (nonatomic) NSString * author;
 @property (nonatomic) NSString * title;
 
 
-- (void) showDetailsInLog;
 
-- (id)initBookWithAuthor:(NSString*)author andTitle:(NSString*)title;
-
-
-+ (id)bookWithAuthor:(NSString *)author andTitle:(NSString *) title;
-
-
-// function initWithAuthorAndTitle (author:String, title:String)
 @end

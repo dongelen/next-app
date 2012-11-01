@@ -6,10 +6,13 @@ Bewerken van data in een UITableView
 ## Lezen en doen
 * Hoofdstuk 10
 
-Doel van vandaag:
-- Er kunnen nieuwe boeken worden toegevoegd
+# Werkvoorbeeld
+Korte rondleiding rond wat we de vorige keer hebben gemaakt.
+Highlights: 
+- Singelton
+- UITableViewController
 
-
+Vorige keer gevraagd een uitwerking te maken met daarin het boek uit les 2. 
 
 # Demo
 Toevoegen van een ViewController waarin we een boek kunnen aanmaken. 
@@ -34,3 +37,10 @@ Bespreken:
 - UIPopOverController
 
 - Singleton uitbreiden
+
+
+# Opgave
+- Zoek uit hoe er een edit button kan worden toegevoegd
+
+
+-  

@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Boek.h"
-
-@interface BoekStore : NSObject
+#import "Book.h"
+@interface BookStore : NSObject
 {
-    NSMutableArray * boeken;
+    NSMutableArray * books;
 }
 
+
+- (void)addBook:(Book*)book;
 - (NSArray *) allBooks;
 
-+ (BoekStore *) sharedBooks;
++ (BookStore *) sharedBooks;
 
+// [[BookStore sharedBooks] allBooks]
 @end
