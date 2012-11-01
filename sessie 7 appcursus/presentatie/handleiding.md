@@ -59,11 +59,13 @@ Reageren op het protocol van de popover controller
 
 # Meedoen 3
 
-- Singleton uitbreiden
+Extra message toevoegen aan singleton
 
++ reload !
 
 # Opgave
-- Zoek uit hoe er een edit button kan worden toegevoegd
-
-
--  
+- Zoek uit hoe er een edit button kan worden toegevoegd aan de UINavigationController, gebruik hier het boek voor
+- Voeg verwijderen toe aan de UITableView, wordt ook echt verwijderd uit BoekStore
+- Voeg toe: klik op rij laat details van een boek zien
+- Voeg toe knop is niet “enabled” als de velden titel en auteur leeg zijn
+ 
