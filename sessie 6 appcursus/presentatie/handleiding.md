@@ -67,7 +67,7 @@ In de numberOfRowsInSection
 
 #Demo 3
 Toevoegen van een navigationcontroller aan de tabel.
-Toevoegen van didselectrow
+Toevoegen van didselectrow met een lege view controller (misschien met een kleurtje ofzo)
 
 # Demo 4
 Voegen een singleton toe aan het project. Doel is om de boeken op een goede plaats te hebben staan. 

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Boek.h"
+
+@protocol NieuwBoekViewControllerDelegate
+-(void)boekToegevoegd:(Boek *) nieuwBoek;
+@end
 
 @interface NieuwBoekViewController : UIViewController
+- (IBAction)voegToe:(id)sender;
+
+@property (nonatomic, assign) id<NieuwBoekViewControllerDelegate> delegate;
 
 @end
