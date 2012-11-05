@@ -28,7 +28,30 @@
 }
 
 - (IBAction)setButton:(id)sender {
+    
     [[NSUserDefaults standardUserDefaults] setValue:self.value.text forKey:@"EenWaarde"];
+
+    
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end

@@ -28,7 +28,7 @@
     // Standaard map
     NSArray * paths= NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true);
     
-    
+    NSLog (@"Pad naam %@", paths);
    return [paths[0] stringByAppendingPathComponent:@"boeken.plist"];    
 }
 
