@@ -3,6 +3,10 @@
 ## Doel
 Connecties maken met een backend in Objective C
 
+# Ondersteuning
+Voor het netjes weergeven van json:
+http://storageroomapp.com/documentation#demo.intro
+
 
 # Opzet
 Er is een rails backend die we gaan hergebruiken om het book voorbeeld mee te laten communiceren. 
@@ -26,9 +30,14 @@ AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperation
 
 
 
+
+
 # Voorbeeld 2
 Integratie met boeken: http://still-brook-6654.herokuapp.com/books.json
 
+
+----
+# Voorbeeld 3
 Moeilijkheid: Dit gebeurt asynchroon!
 
 Hoe bereikt de update van het model de UITableViewController:
