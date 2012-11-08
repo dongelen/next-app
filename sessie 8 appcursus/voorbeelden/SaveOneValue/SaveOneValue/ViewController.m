@@ -29,7 +29,13 @@
 
 - (IBAction)setButton:(id)sender {
     
-    [[NSUserDefaults standardUserDefaults] setValue:self.value.text forKey:@"EenWaarde"];
+    [[NSUserDefaults standardUserDefaults]
+        setValue:self.value.text forKey:@"EenWaarde"];
+
+    
+    NSArray * zoekOpdrachten = @[@"Google", @"Nieuws"];
+    [[NSUserDefaults standardUserDefaults]
+     setValue:zoekOpdrachten forKey:@"ZoekOpdrachten"];
 
     
     [[NSUserDefaults standardUserDefaults] synchronize];

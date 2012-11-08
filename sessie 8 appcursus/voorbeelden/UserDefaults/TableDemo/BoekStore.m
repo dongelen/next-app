@@ -34,6 +34,7 @@
     NSData *encodedBoeken = [NSKeyedArchiver archivedDataWithRootObject:boeken];
  
     [[NSUserDefaults standardUserDefaults] setObject:encodedBoeken forKey:@"Boeken"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 #pragma mark Singleton spul

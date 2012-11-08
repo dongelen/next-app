@@ -34,6 +34,8 @@
 		CA88265C1647D284001C3FAA /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = CA88263E1647D284001C3FAA /* MagicalRecord+Setup.m */; };
 		CA88265D1647D284001C3FAA /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8826401647D284001C3FAA /* MagicalRecord+ShorthandSupport.m */; };
 		CA88265E1647D284001C3FAA /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8826421647D284001C3FAA /* MagicalRecord.m */; };
+		CA89D1D1164C453900E30087 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA89D1CF164C453900E30087 /* Model.xcdatamodeld */; };
+		CA89D1D5164C463A00E30087 /* Boek.m in Sources */ = {isa = PBXBuildFile; fileRef = CA89D1D4164C463A00E30087 /* Boek.m */; };
 		CAE98A4E162564A000278F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A4D162564A000278F90 /* UIKit.framework */; };
 		CAE98A50162564A000278F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A4F162564A000278F90 /* Foundation.framework */; };
 		CAE98A52162564A000278F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE98A51162564A000278F90 /* CoreGraphics.framework */; };
@@ -116,6 +118,9 @@
 		CA8826421647D284001C3FAA /* MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalRecord.m; sourceTree = "<group>"; };
 		CA8826431647D284001C3FAA /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
 		CA8826441647D284001C3FAA /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
+		CA89D1D0164C453900E30087 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CA89D1D3164C463A00E30087 /* Boek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boek.h; sourceTree = "<group>"; };
+		CA89D1D4164C463A00E30087 /* Boek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boek.m; sourceTree = "<group>"; };
 		CAE98A49162564A000278F90 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE98A4D162564A000278F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAE98A4F162564A000278F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -298,6 +303,9 @@
 		CAE98A53162564A000278F90 /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CA89D1CF164C453900E30087 /* Model.xcdatamodeld */,
+				CA89D1D3164C463A00E30087 /* Boek.h */,
+				CA89D1D4164C463A00E30087 /* Boek.m */,
 				CAE98A5C162564A000278F90 /* AppDelegate.h */,
 				CAE98A5D162564A000278F90 /* AppDelegate.m */,
 				CAE98A54162564A000278F90 /* Supporting Files */,
@@ -475,6 +483,8 @@
 				CA88265C1647D284001C3FAA /* MagicalRecord+Setup.m in Sources */,
 				CA88265D1647D284001C3FAA /* MagicalRecord+ShorthandSupport.m in Sources */,
 				CA88265E1647D284001C3FAA /* MagicalRecord.m in Sources */,
+				CA89D1D1164C453900E30087 /* Model.xcdatamodeld in Sources */,
+				CA89D1D5164C463A00E30087 /* Boek.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +665,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA89D1CF164C453900E30087 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA89D1D0164C453900E30087 /* Model.xcdatamodel */,
+			);
+			currentVersion = CA89D1D0164C453900E30087 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../MagicalRecord/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CAE98A40162564A000278F90 /* Project object */;
 }
